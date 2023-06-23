@@ -34,19 +34,16 @@
                     <a class="nav-link" href="#"><i class="bi bi-list-check"></i>Carrinho</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="lancamentos.html"><i class="bi bi-file-earmark"></i>Lançamentos</a>
+                    <a class="nav-link" href="#"><i class="bi bi-collection"></i>Categorias</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="categorias.html"><i class="bi bi-collection"></i>Categorias</a>
+                    <a class="nav-link" href="#"><i class="bi bi-collection"></i>Filamento</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="filamento.html"><i class="bi bi-collection"></i>Filamento</a>
+                    <a class="nav-link" href="#"><i class="bi bi-collection"></i>Termos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="termos.html"><i class="bi bi-collection"></i>Termos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="suporte.html"><i class="bi bi-collection"></i>Suporte</a>
+                    <a class="nav-link" href="#"><i class="bi bi-collection"></i>Suporte</a>
                 </li>
             </ul>
         </nav>
@@ -66,22 +63,18 @@
             </div>  
             <div class="canto col-md-4 justify-content-end align-itens-center text-align-center">
 
-                <form class="mt-2" action="autenticacao.html">
-                    <button name="botao" type="submit" class="btn me-2">
+                    <button name="botao" type="submit" class="btn me-2" onclick="entrar()">
                         <p class="paragraph mt-3"> Entrar </p>
                         <span class="icon-wrapper">
                             <i class="bi bi-person"></i>
                         </span>
                     </button>
-                </form>
-                <form class="mt-2" action="autenticacao.html">
-                    <button class="btn me-3" name="carrinho" type="submit">
+                    <button class="btn me-3" name="carrinho" type="submit" onclick="myFunction()">
                         <p class="paragraph mt-3"> Carrinho </p>
                         <span class="icon-wrapper">
                             <i class="bi bi-cart2"></i>
                         </span>
                     </button>
-                </form>
             </div>
 
         </section>
@@ -89,23 +82,23 @@
         <section id="opcoes" class="opcoes m-0 p-0">
 
             <div class="alinhamento col-md-3">
-                <b>Lançamentos</b>
+                <b onclick="myFunction()" style="cursor: pointer;">Lançamentos</b>
             </div>
 
             <div class="alinhamento col-md-2">
-                <b>Categorias</b>
+                <b onclick="myFunction()" style="cursor: pointer;">Categorias</b>
             </div>
 
             <div class="alinhamento col-md-2">
-                <b>Filamento</b>
+                <b onclick="myFunction()" style="cursor: pointer;">Filamento</b>
             </div>
 
             <div class="alinhamento col-md-2">
-                <b>Termos</b>
+                <b onclick="myFunction()" style="cursor: pointer;">Termos</b>
             </div>
 
             <div class="alinhamento col-md-3">
-                <b>Suporte</b>
+                <b onclick="myFunction()" style="cursor: pointer;">Suporte</b>
             </div>
 
         </section>
@@ -117,21 +110,21 @@
 
                     <div class="mySlides fade">
                       <a href="#">
-                      <img class="fundo_fila" src="imagem/fundo_fila.png" style="width:100%">
-                      <img class="fundo_fila_1024" src="imagem/fundo_fila_1024.png " style="width:100%">
-                      <img class="fundo_fila_680" src="imagem/fundo_fila_680.png" style="width:100%">
+                      <img onclick="myFunction()" class="fundo_fila" src="imagem/fundo_fila.png" style="width:100%">
+                      <img onclick="myFunction()" class="fundo_fila_1024" src="imagem/fundo_fila_1024.png " style="width:100%">
+                      <img onclick="myFunction()" class="fundo_fila_680" src="imagem/fundo_fila_680.png" style="width:100%">
                     </div></a>
                     <a href="#lancamentos.html">
                     <div class="mySlides fade">
-                      <img class="fundo_fila" src="imagem/promocoes.png" style="width:100%">
-                      <img class="fundo_fila_1024" src="imagem/promocoes_1024.png" style="width: 100%">
-                      <img class="fundo_fila_680" src="imagem/promocoes_680.png" style="width:100%">
+                      <img onclick="myFunction()" class="fundo_fila" src="imagem/promocoes.png" style="width:100%">
+                      <img onclick="myFunction()" class="fundo_fila_1024" src="imagem/promocoes_1024.png" style="width: 100%">
+                      <img onclick="myFunction()" class="fundo_fila_680" src="imagem/promocoes_680.png" style="width:100%">
                     </div></a>
                     <a href="CompraOgro.php">
                     <div class="mySlides fade">
-                      <img class="fundo_fila" src="imagem/lacamentos.png" style="width:100%">
-                      <img class="fundo_fila_1024" src="imagem/lancamentos_1024.png" style="width: 100%">
-                      <img class="fundo_fila_680" src="imagem/lancamentos_680.png" style="width:100%">
+                      <img onclick="myFunction()" class="fundo_fila" src="imagem/lacamentos.png" style="width:100%">
+                      <img onclick="myFunction()" class="fundo_fila_1024" src="imagem/lancamentos_1024.png" style="width: 100%">
+                      <img onclick="myFunction()" class="fundo_fila_680" src="imagem/lancamentos_680.png" style="width:100%">
                     </div></a>
                   
               
@@ -161,7 +154,7 @@
                             <div class="contentBox">
                               <h3>Urubu preto e branco</h3>
                               <h2 class="preco">R$<small>70.00</small></h2>
-                              <a href="autenticacao.html" class="comprar">Comprar</a>
+                              <a onclick="myFunction()" style="cursor: pointer;" class="comprar">Comprar</a>
                             </div>
                         </div>
                     </div>
@@ -173,7 +166,7 @@
                             <div class="contentBox">
                               <h3>Burguês preto e branco</h3>
                               <h2 class="preco">R$<small>60.00</small></h2>
-                              <a href="autenticacao.html" class="comprar">Comprar</a>
+                              <a onclick="myFunction()" style="cursor: pointer;" class="comprar">Comprar</a>
                             </div>
                           </div>
                     </div>
@@ -185,7 +178,7 @@
                             <div class="contentBox">
                               <h3>Heroí Picanha</h3>
                               <h2 class="preco">R$<small>130.00</small></h2>
-                              <a href="autenticacao.html" class="comprar">Comprar</a>
+                              <a onclick="myFunction()" style="cursor: pointer;" class="comprar">Comprar</a>
                             </div>
                           </div>
                   
@@ -198,7 +191,7 @@
                             <div class="contentBox">
                               <h3>Mago cósmico</h3>
                               <h2 class="preco">R$<small>150.00</small></h2>
-                              <a href="autenticacao.html" class="comprar">Comprar</a>
+                              <a onclick="myFunction()" style="cursor: pointer;" class="comprar">Comprar</a>
                             </div>
                           </div>
                   
@@ -211,7 +204,7 @@
                             <div class="contentBox">
                               <h3>Pirata narigudo</h3>
                               <h2 class="preco">R$<small>140.00</small></h2>
-                              <a href="autenticacao.html" class="comprar">Comprar</a>
+                              <a onclick="myFunction()" style="cursor: pointer;" class="comprar">Comprar</a>
                             </div>
                           </div>
                   
@@ -224,7 +217,7 @@
                             <div class="contentBox">
                               <h3>Robo calcinha</h3>
                               <h2 class="preco">R$<small>69.69</small></h2>
-                              <a href="autenticacao.html" class="comprar">Comprar</a>
+                              <a onclick="myFunction()" style="cursor: pointer;" class="comprar">Comprar</a>
                             </div>
                           </div>
                   
@@ -237,7 +230,7 @@
                             <div class="contentBox">
                               <h3>Dino Spino</h3>
                               <h2 class="preco">R$<small>170.00</small></h2>
-                              <a href="autenticacao.html" class="comprar">Comprar</a>
+                              <a onclick="myFunction()" style="cursor: pointer;" class="comprar">Comprar</a>
                             </div>
                           </div>
                   
@@ -250,7 +243,7 @@
                             <div class="contentBox">
                               <h3>Mamute Manny</h3>
                               <h2 class="preco">R$<small>140.00</small></h2>
-                              <a href="autenticacao.html" class="comprar">Comprar</a>
+                              <a onclick="myFunction()" style="cursor: pointer;" class="comprar">Comprar</a>
                             </div>
                           </div>
                   
@@ -263,7 +256,7 @@
                             <div class="contentBox">
                               <h3>Paulo Ruivo</h3>
                               <h2 class="preco">R$<small>200.00</small></h2>
-                              <a href="autenticacao.html" class="comprar">Comprar</a>
+                              <a onclick="myFunction()" style="cursor: pointer;" class="comprar">Comprar</a>
                             </div>
                           </div>
                   
@@ -274,32 +267,32 @@
 
         </section>
 
-        <section id="rodape" class="rodape m-0 p-0">
-          <div class="container cor">
-            <div class="rodapealinhar row">
-          <div class="alinhamento colalinhar col-md-3">
-            <img class="logorodape" id="logo" onclick="Logo()" src="imagem/RE FIGURE.png">
-          </div>
-          <div class="alinhamento colalinhar col-md-3">
-            Copyright &copy; 2023 - All Rights Reserved - Re:Figure
-          </div>
-          <div class="alinhamento colalinhar col-md-3">
-            <ul>
-              <li>Desenvolvedores:</li>
+        <section id="rodape" class="m-0 p-0">
+          <div class="alinharrow row">
+            <div class="alinhamentodalogo col-md-3">
+              <img class="logorodape" id="logo" onclick="Logo()" src="imagem/RE FIGURE.png">
+            </div>
+            <div class="alinhamentorodape col-md-3">
+              <p>Copyright &copy; 2023 - All Rights Reserved - Re:Figure</p>
+            </div>
+            <div class="delete col-md-3">
+              <ul>
+                <li>Desenvolvedores:</li>
                 <li>Cauê Marchi Foyth</li>
                 <li>Jônatas Rocha dos Santos</li>
                 <li>Lucas Giovani Fruck</li>
-              </ul>  
+              </ul>
+            </div>
+            <div class="alinhamentorodape col-md-3">
+              <div class="divpai">
+                <ul class="insta">
+                  <a href="https://instagram.com/caue_foyth" target="_blank"><li><i class="bi bi-instagram"></i>Cauê</li></a>
+                  <a href="https://instagram.com/arcaro_jonatas" target="_blank"><li><i class="bi bi-instagram"></i>Jônatas</li></a>
+                  <a href="https://instagram.com/lucasgiovanifruck" target="_blank"><li><i class="bi bi-instagram"></i>Lucas</li></a>     
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="alinhamento col-md-3">
-            <ul class="insta">
-              <a href="https://instagram.com/caue_foyth" target="_blank"><li><i class="bi bi-instagram"></i>Cauê</li></a>
-              <a href="https://instagram.com/arcaro_jonatas" target="_blank"><li><i class="bi bi-instagram"></i>Jônatas</li></a>
-              <a href="https://instagram.com/lucasgiovanifruck" target="_blank"><li><i class="bi bi-instagram"></i>Lucas</li></a>     
-            </ul>
-          </div>
-        </div>
-      </div>
 
         </section>
 
